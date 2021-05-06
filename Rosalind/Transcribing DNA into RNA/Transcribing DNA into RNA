@@ -1,0 +1,5 @@
+with open("rosalind_rna.txt", "r") as String:
+    String = String.read()
+    String = String.replace("T", "U")
+    print(String)
+
